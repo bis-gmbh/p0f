@@ -87,6 +87,9 @@ void fingerprint_mtu(u8 to_srv, struct packet_data* pk, struct packet_flow* f) {
 
   }
 
+  if (to_srv) f->client->link_mtu = mtu;
+  else f->server->link_mtu = mtu;
+
   OBSERVF("raw_mtu", "%u", mtu);
 
 }

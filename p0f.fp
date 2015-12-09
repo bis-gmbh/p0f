@@ -32,11 +32,17 @@ sig   = 1452
 sig   = 1454
 sig   = 1492
 
+label = L2TP
+sig   = 1456
+
 ; Miscellanous tunnels (including VPNs, IPv6 tunneling, etc):
 
 label = GIF
 sig   = 1240
+
+label = IPsec or VPN
 sig   = 1280
+sig   = 1400
 
 label = generic tunnel or VPN
 sig   = 1300
@@ -54,6 +60,120 @@ sig   = 1480
 
 label = PPTP
 sig   = 1490
+
+; OpenVPN
+
+label = OpenVPN UDP bs64 SHA1
+sig   = 1409
+
+label = OpenVPN TCP bs64 SHA1
+sig   = 1407
+
+label = OpenVPN UDP bs64 SHA1 lzo
+sig   = 1408
+
+label = OpenVPN TCP bs64 SHA1 lzo
+sig   = 1406
+
+label = OpenVPN UDP bs128 SHA1
+sig   = 1393
+
+label = OpenVPN TCP bs128 SHA1
+sig   = 1391
+
+label = OpenVPN UDP bs128 SHA1 lzo
+sig   = 1392
+
+label = OpenVPN TCP bs128 SHA1 lzo
+sig   = 1390
+
+label = OpenVPN UDP bs128 SHA256
+sig   = 1381
+
+label = OpenVPN TCP bs128 SHA256
+sig   = 1379
+
+label = OpenVPN UDP bs128 SHA256 lzo
+sig   = 1380
+
+label = OpenVPN TCP bs128 SHA256 lzo
+sig   = 1378
+
+; OpenVPN mssfix 1400
+
+label = OpenVPN UDP bs64 SHA1
+sig   = 1359
+
+label = OpenVPN TCP bs64 SHA1
+sig   = 1357
+
+label = OpenVPN UDP bs64 SHA1 lzo
+sig   = 1358
+
+label = OpenVPN TCP bs64 SHA1 lzo
+sig   = 1356
+
+label = OpenVPN UDP bs128 SHA1
+sig   = 1343
+
+label = OpenVPN TCP bs128 SHA1
+sig   = 1341
+
+label = OpenVPN UDP bs128 SHA1 lzo
+sig   = 1342
+
+label = OpenVPN TCP bs128 SHA1 lzo
+sig   = 1340
+
+label = OpenVPN UDP bs128 SHA256
+sig   = 1331
+
+label = OpenVPN TCP bs128 SHA256
+sig   = 1329
+
+label = OpenVPN UDP bs128 SHA256 lzo
+sig   = 1330
+
+label = OpenVPN TCP bs128 SHA256 lzo
+sig   = 1328
+
+; OpenVPN mssfix 1350
+
+label = OpenVPN UDP bs64 SHA1
+sig   = 1309
+
+label = OpenVPN TCP bs64 SHA1
+sig   = 1307
+
+label = OpenVPN UDP bs64 SHA1 lzo
+sig   = 1308
+
+label = OpenVPN TCP bs64 SHA1 lzo
+sig   = 1306
+
+label = OpenVPN UDP bs128 SHA1
+sig   = 1293
+
+label = OpenVPN TCP bs128 SHA1
+sig   = 1291
+
+label = OpenVPN UDP bs128 SHA1 lzo
+sig   = 1292
+
+label = OpenVPN TCP bs128 SHA1 lzo
+sig   = 1290
+
+label = OpenVPN UDP bs128 SHA256
+sig   = 1281
+
+label = OpenVPN TCP bs128 SHA256
+sig   = 1279
+
+label = OpenVPN UDP bs128 SHA256 lzo
+sig   = 1280
+
+label = OpenVPN TCP bs128 SHA256 lzo
+sig   = 1278
 
 ; Really exotic stuff:
 
