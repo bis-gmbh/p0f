@@ -60,6 +60,7 @@ sig   = 1480
 
 label = PPTP
 sig   = 1490
+sig   = 1396
 
 ; OpenVPN
 
