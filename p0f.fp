@@ -60,7 +60,6 @@ sig   = 1480
 
 label = PPTP
 sig   = 1490
-sig   = 1396
 
 ; OpenVPN
 
@@ -100,6 +99,18 @@ sig   = 1380
 label = OpenVPN TCP bs128 SHA256 lzo
 sig   = 1378
 
+label = OpenVPN TCP lzo bs256 SHA512
+sig   = 1395
+
+label = penVPN UDP lzo bs256 SHA512
+sig   = 1397
+
+label = OpenVPN TCP bs256 SHA512
+sig   = 1396
+
+label = OpenVPN UDP bs256 SHA512
+sig   = 1398
+
 ; OpenVPN mssfix 1400
 
 label = OpenVPN UDP bs64 SHA1
@@ -138,6 +149,18 @@ sig   = 1330
 label = OpenVPN TCP bs128 SHA256 lzo
 sig   = 1328
 
+label = OpenVPN TCP lzo bs256 SHA512
+sig   = 1345
+
+label = penVPN UDP lzo bs256 SHA512
+sig   = 1347
+
+label = OpenVPN TCP bs256 SHA512
+sig   = 1346
+
+label = OpenVPN UDP bs256 SHA512
+sig   = 1348
+
 ; OpenVPN mssfix 1350
 
 label = OpenVPN UDP bs64 SHA1
@@ -175,6 +198,18 @@ sig   = 1280
 
 label = OpenVPN TCP bs128 SHA256 lzo
 sig   = 1278
+
+label = OpenVPN TCP lzo bs256 SHA512
+sig   = 1295
+
+label = penVPN UDP lzo bs256 SHA512
+sig   = 1297
+
+label = OpenVPN TCP bs256 SHA512
+sig   = 1296
+
+label = OpenVPN UDP bs256 SHA512
+sig   = 1298
 
 ; Really exotic stuff:
 
